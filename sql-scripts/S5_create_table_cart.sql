@@ -1,6 +1,6 @@
 CREATE TABLE Cart (
     CartID INT PRIMARY KEY,
-    UserID VARCHAR(50),
+    UserID INT,
     Total DECIMAL(10, 2),
     FOREIGN KEY (UserID) REFERENCES User(UserID)
 );
