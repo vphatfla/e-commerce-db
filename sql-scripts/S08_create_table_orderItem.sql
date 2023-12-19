@@ -1,5 +1,5 @@
 CREATE TABLE OrderItem (
-    OrderItemID INT PRIMARY KEY,
+    OrderItemID INT PRIMARY KEY AUTO_INCREMENT,
     OrderID INT,
     ProductID INT,
     Quantity INT,

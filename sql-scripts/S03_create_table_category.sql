@@ -1,4 +1,4 @@
 CREATE TABLE Category (
-    CategoryID INT PRIMARY KEY,
+    CategoryID INT PRIMARY KEY AUTO_INCREMENT,
     CategoryName VARCHAR(255)
 );

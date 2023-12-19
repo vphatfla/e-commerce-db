@@ -1,5 +1,5 @@
 CREATE TABLE `Order` (
-    OrderID INT PRIMARY KEY,
+    OrderID INT PRIMARY KEY AUTO_INCREMENT,
     Amount DECIMAL(10, 2),
     UserID INT,
     OrderDate DATE,

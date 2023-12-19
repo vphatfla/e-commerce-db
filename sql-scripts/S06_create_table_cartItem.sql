@@ -1,5 +1,5 @@
 CREATE TABLE CartItem (
-    CartItemID INT PRIMARY KEY,
+    CartItemID INT PRIMARY KEY AUTO_INCREMENT,
     CartID INT,
     ProductID INT,
     Quantity INT,
