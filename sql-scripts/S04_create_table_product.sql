@@ -1,9 +1,8 @@
 CREATE TABLE Product (
     ProductID INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(255),
-    Description TEXT,
+    Description VARCHAR(255),
     Price DECIMAL(10, 2),
-    Quantity INT,
     CategoryID INT,
     FOREIGN KEY (CategoryID) REFERENCES Category(CategoryID)
 );
