@@ -10,7 +10,10 @@ To stop docker:
 ```
 docker-compose down
 ```
-
+To stop local sql before deploying docker-sql server to 3306:
+```
+sudo systemctl stop mysql
+```
 To connect with the server with host:
 ```
  docker-compose exec mysql mysql -u root -p
